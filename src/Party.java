@@ -7,5 +7,7 @@ public class Party{
 
     public Party(String host, String location, Date date){
         this.date = date;
+        this.host = host;
+        this.location = location;
     }
 }
